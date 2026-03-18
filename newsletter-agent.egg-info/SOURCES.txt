@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.py
+newsletter_agent/__init__.py
+newsletter_agent/agent.py
+newsletter_agent/cli.py
+newsletter_agent/config.py
+newsletter_agent/fetcher.py
+newsletter_agent/models.py
+newsletter_agent/renderer.py
+newsletter_agent/summarizer.py
+newsletter_agent.egg-info/PKG-INFO
+newsletter_agent.egg-info/SOURCES.txt
+newsletter_agent.egg-info/dependency_links.txt
+newsletter_agent.egg-info/entry_points.txt
+newsletter_agent.egg-info/requires.txt
+newsletter_agent.egg-info/top_level.txt

@@ -1,0 +1,2 @@
+[console_scripts]
+newsletter-agent = newsletter_agent.cli:main
