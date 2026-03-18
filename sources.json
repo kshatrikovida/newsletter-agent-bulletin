@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Local Test Feed",
+    "url": "local_test_site/index.html",
+    "article_selector": "article",
+    "title_selector": "h2 a",
+    "link_selector": "h2 a",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 1
+  }
+]

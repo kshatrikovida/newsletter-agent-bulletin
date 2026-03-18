@@ -1,0 +1,52 @@
+[
+  {
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/",
+    "article_selector": "article",
+    "title_selector": "h3 a, h2 a, a[href]",
+    "link_selector": "h3 a, h2 a, a[href]",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 4
+  },
+  {
+    "name": "Anthropic News",
+    "url": "https://www.anthropic.com/news",
+    "article_selector": "article, li:has(a[href*='/news/'])",
+    "title_selector": "h3 a, h2 a, a[href*='/news/']",
+    "link_selector": "h3 a, h2 a, a[href*='/news/']",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 4
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog",
+    "article_selector": "article, .post-preview, .blog-post-card",
+    "title_selector": "h2 a, h3 a, a[href*='/blog/']",
+    "link_selector": "h2 a, h3 a, a[href*='/blog/']",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 4
+  },
+  {
+    "name": "Google Blog AI",
+    "url": "https://blog.google/technology/ai/",
+    "article_selector": "article, li:has(a[href*='/technology/ai/'])",
+    "title_selector": "h2 a, h3 a, a[href*='/technology/ai/']",
+    "link_selector": "h2 a, h3 a, a[href*='/technology/ai/']",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 4
+  },
+  {
+    "name": "LangChain Blog",
+    "url": "https://blog.langchain.com/",
+    "article_selector": "article, .post-card, .post-preview",
+    "title_selector": "h2 a, h3 a, a[href]",
+    "link_selector": "h2 a, h3 a, a[href]",
+    "excerpt_selector": "p",
+    "date_selector": "time, [datetime]",
+    "max_articles": 4
+  }
+]
